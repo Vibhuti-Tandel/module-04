@@ -4,7 +4,7 @@ public class StudentP7 {
 
 	private int id;
 	private String fname,lname,email,gender,password;
-	private long contact;
+	private long mobile;
 	public int getId() {
 		return id;
 	}
@@ -41,16 +41,17 @@ public class StudentP7 {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public long getContact() {
-		return contact;
+	public long getMobile() {
+		return mobile;
 	}
-	public void setContact(long contact) {
-		this.contact = contact;
+	public void setMobile(long mobile) {
+		this.mobile = mobile;
 	}
 	@Override
 	public String toString() {
 		return "StudentP7 [id=" + id + ", fname=" + fname + ", lname=" + lname + ", email=" + email + ", gender="
-				+ gender + ", password=" + password + ", contact=" + contact + "]";
+				+ gender + ", password=" + password + ", mobile=" + mobile + "]";
 	}
+	
 	
 }
